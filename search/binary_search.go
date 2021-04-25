@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// O(log n)
 func BinarySearch(array []int, item int) (int, error) {
 	var err error
 	low := 0
