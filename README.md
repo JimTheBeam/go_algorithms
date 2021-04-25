@@ -1,3 +1,3 @@
 # Realization algorithms in Golang
 
-[Binary search](go_algorithms/search/binary_search.go)
+[Binary search](/search/binary_search.go)
