@@ -5,14 +5,14 @@ import (
 	"fmt"
 )
 
-// binary search - function  O(log n)
+// binary search - complexity O(log n)
 func BinarySearch(array []int, item int) (int, error) {
 	leftIndex := 0               // left index of array
 	rightIndex := len(array) - 1 // right index of array
 
 	for leftIndex <= rightIndex {
 		mid := (leftIndex + rightIndex) / 2
-		guess := array[mid] // guess if
+		guess := array[mid]
 		if guess == item {
 			return mid, nil
 		}
