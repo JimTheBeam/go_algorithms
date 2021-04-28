@@ -4,13 +4,10 @@ import "errors"
 
 // O(n)
 func LinearSearch(arr []int, item int) (int, error) {
-	var err error
-	for index, elem := range arr {
-		if elem == item {
-			err = nil
-			return index, err
+	for index := range arr {
+		if arr[index] == item {
+			return index, nil
 		}
 	}
-	err = errors.New("Not found")
-	return 0, err
+	return 0, errors.New("Not found")
 }

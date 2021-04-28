@@ -5,27 +5,24 @@ import (
 	"fmt"
 )
 
-// O(log n)
+// binary search - function  O(log n)
 func BinarySearch(array []int, item int) (int, error) {
-	var err error
-	low := 0
-	high := len(array) - 1
+	leftIndex := 0               // left index of array
+	rightIndex := len(array) - 1 // right index of array
 
-	for low <= high {
-		mid := (low + high) / 2
-		guess := array[mid]
+	for leftIndex <= rightIndex {
+		mid := (leftIndex + rightIndex) / 2
+		guess := array[mid] // guess if
 		if guess == item {
-			err = nil
-			return mid, err
+			return mid, nil
 		}
 		if guess > item {
-			high = mid - 1
+			rightIndex = mid - 1
 		} else {
-			low = mid + 1
+			leftIndex = mid + 1
 		}
 	}
-	err = errors.New("Not found")
-	return 0, err
+	return 0, errors.New("Not found")
 }
 
 func PrintBinarySearch(index int, err error) {
