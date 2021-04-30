@@ -1,9 +1,5 @@
 package search
 
-import (
-	"errors"
-)
-
 // binary search - complexity O(log n)
 func BinarySearch(array []int, item int) (int, error) {
 	leftIndex := 0               // left index of array
@@ -21,5 +17,5 @@ func BinarySearch(array []int, item int) (int, error) {
 			leftIndex = mid + 1
 		}
 	}
-	return 0, errors.New("Not found")
+	return 0, ErrNotFound
 }
