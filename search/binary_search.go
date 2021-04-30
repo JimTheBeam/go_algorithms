@@ -2,7 +2,6 @@ package search
 
 import (
 	"errors"
-	"fmt"
 )
 
 // binary search - complexity O(log n)
@@ -23,12 +22,4 @@ func BinarySearch(array []int, item int) (int, error) {
 		}
 	}
 	return 0, errors.New("Not found")
-}
-
-func PrintBinarySearch(index int, err error) {
-	if err != nil {
-		fmt.Println("Not found")
-	} else {
-		fmt.Println(index)
-	}
 }

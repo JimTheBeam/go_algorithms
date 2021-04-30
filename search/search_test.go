@@ -1,74 +1,81 @@
 package search
 
 import (
-	"errors"
 	"testing"
 )
 
-type testData struct {
-	testArr      []int // inputs to search func
-	number       int   // inputs to search func
-	wantedResult wantedResult
+type data struct {
+	arr    []int // inputs to search func
+	number int   // inputs to search func
+	want   want
 }
 
-type wantedResult struct {
-	funcResult int   // wanted result from search func
-	funcErr    error // wanted return from search func
+type want struct {
+	result int   // wanted result from search func
+	err    error // wanted return from search func
 }
 
-var tests = []testData{
+var cases = []data{
 	{
-		testArr: []int{},
-		number:  4,
-		wantedResult: wantedResult{
-			funcResult: 0,
-			funcErr:    errors.New("Not found"),
+		arr:    []int{},
+		number: 4,
+		want: want{
+			result: 0,
+			err:    ErrNotFound,
 		},
 	},
 	{
-		testArr: []int{1},
-		number:  1,
-		wantedResult: wantedResult{
-			funcResult: 0,
-			funcErr:    nil,
+		arr:    []int{1},
+		number: 1,
+		want: want{
+			result: 0,
+			err:    nil,
 		},
 	},
 	{
-		testArr: []int{1, 2, 3, 4, 5, 6},
-		number:  4,
-		wantedResult: wantedResult{
-			funcResult: 3,
-			funcErr:    nil,
+		arr:    []int{1, 2, 3, 4, 5, 6},
+		number: 4,
+		want: want{
+			result: 3,
+			err:    nil,
 		},
 	},
 	{
-		testArr: []int{1, 2, 3, 4, 5, 6, 8, 9, 10},
-		number:  9,
-		wantedResult: wantedResult{
-			funcResult: 7,
-			funcErr:    nil,
+		arr:    []int{1, 2, 3, 4, 5, 6, 8, 9, 10},
+		number: 9,
+		want: want{
+			result: 7,
+			err:    nil,
 		},
 	},
 	{
-		testArr: []int{0, 3, 5, 8, 10, 11, 15, 20, 22, 23, 51, 65},
-		number:  65,
-		wantedResult: wantedResult{
-			funcResult: 11,
-			funcErr:    nil,
+		arr:    []int{0, 3, 5, 8, 10, 11, 15, 20, 22, 23, 51, 65},
+		number: 65,
+		want: want{
+			result: 11,
+			err:    nil,
 		},
 	},
 	{
-		testArr: []int{0, 3, 5, 8, 10, 11, 15, 20, 22, 23, 51, 65},
-		number:  21,
-		wantedResult: wantedResult{
-			funcResult: 0,
-			funcErr:    errors.New("Not found"),
+		arr:    []int{0, 3, 5, 8, 10, 11, 15, 20, 22, 23, 51, 65},
+		number: 21,
+		want: want{
+			result: 0,
+			err:    ErrNotFound,
 		},
 	},
 }
 
 func TestLinearSearch(t *testing.T) {
+	for i, item := range cases {
+		res, err := LinearSearch(item.arr, item.number)
 
-	t.Error() // failed
+		if err != nil && err != item.want.err {
+			t.Errorf("Test failed. %d\n", i)
+		}
 
+		if res != item.want.result {
+			t.Errorf("Test failed2. %d\n", i)
+		}
+	}
 }
