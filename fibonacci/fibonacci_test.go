@@ -13,8 +13,8 @@ func TestFibbonacci(t *testing.T) {
 	}{
 		{
 			name: "first test",
-			args: args{1},
-			want: 1,
+			args: args{0},
+			want: 0,
 		},
 		{
 			name: "second test",

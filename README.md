@@ -1,24 +1,29 @@
 # Realization algorithms in Golang
 
 ### Search:
-[Linear search](/search/linear_search.go)
+1. [Linear search](/search/linear_search.go)
 
-complexity O(n)
+    complexity O(n)
 
-[Binary search](/search/binary_search.go)
+2. [Binary search](/search/binary_search.go)
 
-complexity O(log n)
+    complexity O(log n)
 
-[Jump search](/search/jump_search.go)
+3. [Jump search](/search/jump_search.go)
 
-complexity O(sqrt n)
+    complexity O(sqrt n)
 
 ### Sorting:
 
-Selection sort
+1. Selection sort
 
-Bubble sort
+2. Bubble sort
 
-Merge sort
+3. Merge sort
 
-Quick sort
+4. Quick sort
+
+
+### Fibonacci:
+
+[Fibonacci](fibonacci/fibonacci.go)

@@ -1,6 +1,9 @@
 package fibonacci
 
 func Fibbonacci(n int) int {
+	if n == 0 {
+		return 0
+	}
 	arr := make([]int, n+1)
 	arr[0] = 0
 	arr[1] = 1
