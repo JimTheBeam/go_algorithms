@@ -15,7 +15,14 @@
 
 ### Sorting:
 
-1. Selection sort
+1. [Selection sort](/sorting/selection_sort.go)
+
+    complexity: 
+    | Average  | Best   | Worst  |
+    | :------- |:------:| ------:|
+    |  O(n^2)  | O(n^2) | O(n^2) |
+
+
 
 2. Bubble sort
 

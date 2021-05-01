@@ -41,6 +41,11 @@ func TestFibbonacci(t *testing.T) {
 			args: args{22},
 			want: 17711,
 		},
+		{
+			name: "seventh test",
+			args: args{50},
+			want: 12586269025,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
