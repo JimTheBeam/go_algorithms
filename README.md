@@ -35,7 +35,14 @@ Complexity:
 Best case: array already sorted
 
 
-### 3. Merge sort
+### 3. [Merge sort](/sorting/merge_sort.go)
+
+Complexity: 
+   | Average      | Best         | Worst      | Memory |
+   | :-------     |:------:      | ------:    | ------:|
+   |  O(n log n)  | O(n log n)   | O(n log n) |   O(n) |
+   
+
 
 ### 4. Quick sort
 
