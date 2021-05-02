@@ -44,7 +44,13 @@ Complexity:
    
 
 
-### 4. Quick sort
+### 4. [Quick sort](/sorting/quick_sort.go)
+
+Complexity: 
+   | Average      | Best         | Worst      | Memory |
+   | :-------     |:------:      | ------:    | ------:|
+   |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
+
 
 
 ### Fibonacci:
