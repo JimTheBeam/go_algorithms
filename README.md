@@ -1,34 +1,43 @@
 # Realization algorithms in Golang
 
 ### Search:
-1. [Linear search](/search/linear_search.go)
 
-    complexity O(n)
+   ### 1. [Linear search](/search/linear_search.go)
 
-2. [Binary search](/search/binary_search.go)
+complexity O(n)
 
-    complexity O(log n)
+### 2. [Binary search](/search/binary_search.go)
 
-3. [Jump search](/search/jump_search.go)
+complexity O(log n)
 
-    complexity O(sqrt n)
+### 3. [Jump search](/search/jump_search.go)
+
+complexity O(sqrt n)
 
 ### Sorting:
 
-1. [Selection sort](/sorting/selection_sort.go)
+### 1. [Selection sort](/sorting/selection_sort.go)
 
-    complexity: 
-    | Average  | Best   | Worst  |
-    | :------- |:------:| ------:|
-    |  O(n^2)  | O(n^2) | O(n^2) |
+Complexity: 
+   | Average  | Best   | Worst  | Memory |
+   | :------- |:------:| ------:| ------:|
+   |  O(n^2)  | O(n^2) | O(n^2) |   O(1) |
 
 
 
-2. Bubble sort
+### 2. [Bubble sort](/sorting/bubble_sort.go)
 
-3. Merge sort
+Complexity: 
+   | Average  | Best   | Worst  | Memory |
+   | :------- |:------:| ------:| ------:|
+   |  O(n^2)  | O(n)   | O(n^2) |   O(1) |
+   
+Best case: array already sorted
 
-4. Quick sort
+
+### 3. Merge sort
+
+### 4. Quick sort
 
 
 ### Fibonacci:
