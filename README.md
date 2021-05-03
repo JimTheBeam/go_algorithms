@@ -52,6 +52,14 @@ Complexity:
    |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
 
 
+### 5. [Insertion sort](/sorting/insertion_sort.go)
+
+Complexity: 
+   | Average  | Best   | Worst  | Memory |
+   | :------- |:------:| ------:| ------:|
+   |  O(n^2)  | O(n)   | O(n^2) |   O(1) |
+
+
 
 ### Fibonacci:
 
