@@ -13,3 +13,10 @@ func Fibbonacci(n int) int {
 	}
 	return arr[n]
 }
+
+func FibRecursion(n int) int {
+	if n == 0 || n == 1 {
+		return n
+	}
+	return FibRecursion(n-1) + FibRecursion(n-2)
+}

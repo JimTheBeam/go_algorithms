@@ -20,7 +20,7 @@ complexity O(sqrt n)
 
 Complexity: 
    | Average  | Best   | Worst  | Memory |
-   | :------- |:------:| ------:| ------:|
+   | :------- |:------:| :-----:| :-----:|
    |  O(n^2)  | O(n^2) | O(n^2) |   O(1) |
 
 
@@ -29,7 +29,7 @@ Complexity:
 
 Complexity: 
    | Average  | Best   | Worst  | Memory |
-   | :------- |:------:| ------:| ------:|
+   | :------- |:------:| :-----:| :-----:|
    |  O(n^2)  | O(n)   | O(n^2) |   O(1) |
    
 Best case: array already sorted
@@ -39,7 +39,7 @@ Best case: array already sorted
 
 Complexity: 
    | Average      | Best         | Worst      | Memory |
-   | :-------     |:------:      | ------:    | ------:|
+   | :-------     |:------:      | :-----:    | :-----:|
    |  O(n log n)  | O(n log n)   | O(n log n) |   O(n) |
    
 
@@ -48,7 +48,7 @@ Complexity:
 
 Complexity: 
    | Average      | Best         | Worst      | Memory |
-   | :-------     |:------:      | ------:    | ------:|
+   | :-------     |:------:      | :-----:    | :-----:|
    |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
 
 
@@ -56,7 +56,7 @@ Complexity:
 
 Complexity: 
    | Average  | Best   | Worst  | Memory |
-   | :------- |:------:| ------:| ------:|
+   | :------- |:------:| :-----:| :-----:|
    |  O(n^2)  | O(n)   | O(n^2) |   O(1) |
 
 
