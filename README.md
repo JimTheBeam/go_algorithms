@@ -144,7 +144,7 @@ Complexity:
 ## Fibonacci
 ---
 
-### Fibonacci <a name=fibonacci>
+### Fibonacci<a name=fibonacci>
 
    Reqursive fibbonacci algorithm:
 complexity 2^n
