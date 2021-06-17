@@ -23,6 +23,8 @@ Complexity:
    | :------- |:------:| :-----:| :-----:|
    |  O(n^2)  | O(n^2) | O(n^2) |   O(1) |
 
+![image](/img/selectionsort.gif)
+
 
 
 ### 2. [Bubble sort](/sorting/bubble_sort.go)
@@ -34,6 +36,8 @@ Complexity:
    
 Best case: array already sorted
 
+![image](/img/bubblesort.gif)
+
 
 ### 3. [Merge sort](/sorting/merge_sort.go)
 
@@ -41,7 +45,8 @@ Complexity:
    | Average      | Best         | Worst      | Memory |
    | :-------     |:------:      | :-----:    | :-----:|
    |  O(n log n)  | O(n log n)   | O(n log n) |   O(n) |
-   
+
+![image](/img/mergesort.gif)   
 
 
 ### 4. [Quick sort](/sorting/quick_sort.go)
@@ -51,6 +56,7 @@ Complexity:
    | :-------     |:------:      | :-----:    | :-----:|
    |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
 
+![image](/img/quicksort.gif)
 
 ### 5. [Insertion sort](/sorting/insertion_sort.go)
 
@@ -59,6 +65,7 @@ Complexity:
    | :------- |:------:| :-----:| :-----:|
    |  O(n^2)  | O(n)   | O(n^2) |   O(1) |
 
+![image](/img/insertionsort.gif)
 
 
 ### Fibonacci:

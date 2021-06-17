@@ -1,5 +1,6 @@
 package fibonacci
 
+// Fibbonacci - complexity O(n)
 func Fibbonacci(n int) int {
 	if n == 0 {
 		return 0
@@ -14,6 +15,7 @@ func Fibbonacci(n int) int {
 	return arr[n]
 }
 
+// FibRecursion - complexity O(2^n)
 func FibRecursion(n int) int {
 	if n == 0 || n == 1 {
 		return n
