@@ -62,13 +62,13 @@ complexity O(sqrt n)
 
 
 Complexity of all sorting algorithms: 
-   | Algorithm          | Average      | Best         | Worst      | Memory |
-   | :---------         | :-------     |:------:      | :-----:    | :-----:|
-   |  Selection sort    |  O(n^2)      | O(n^2)       | O(n^2)     |   O(1) |
-   |  Buble sort        |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
-   |  Merge sort        |  O(n log n)  | O(n log n)   | O(n log n) |   O(n) |
-   |  Quik sort         |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
-   |  Insertion sort    |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
+   | Algorithm                             | Average      | Best         | Worst      | Memory |
+   | :---------                            | :-------     |:------:      | :-----:    | :-----:|
+   |  [Selection sort](#selection_sort)    |  O(n^2)      | O(n^2)       | O(n^2)     |   O(1) |
+   |  [Bubble sort](#bubble_sort)          |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
+   |  [Merge sort](#merge_sort)            |  O(n log n)  | O(n log n)   | O(n log n) |   O(n) |
+   |  [Quick sort](#quick_sort)            |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
+   |  [Insertion sort](#insertion_sort)    |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
 
 
 
