@@ -3,65 +3,15 @@
 ## Index<a name=title>
 ### Search:
 
-   1. [Linear search](#linear_search)
-
-   2. [Binary search](#binary_search)
-
-   3. [Jump search](#jump_search)
+   | №  | Algorithm                             | Complexity   | Code                             |
+   | :- | :---------                            | :-------     |:------:                          |
+   | 1  |  [Linear search](#linear_search)      |  O(n)        | [code](/search/linear_search.go) |
+   | 2  |  [Binary search](#binary_search)      |  O(log n)    | [code](/search/binary_search.go) |
+   | 3  |  [Jump search](#jump_search)          |  O(sqrt n)   | [code](/search/jump_search.go)   |
 
 
 ### Sorting:
 
-   1. [Selection sort](#selection_sort)
-
-   2. [Bubble sort](#bubble_sort)
-
-   3. [Merge sort](#merge_sort)
-
-   4. [Quick sort](#quick_sort)
-
-   5. [Insertion sort](#insertion_sort)
-
-
-### Fibonacci:
-
-   1. [Fibonacci](#fibonacci)
-
-
-## Search
----
-
-### Linear search<a name=linear_search>
-
-complexity O(n)
-
-[code](/search/linear_search.go)
-
-[to title](#title)
-
-### Binary search<a name=binary_search>
-
-complexity O(log n)
-
-[code](/search/binary_search.go)
-
-[to title](#title)
-
-
-### Jump search<a name=jump_search>
-
-complexity O(sqrt n)
-
-[code](/search/jump_search.go)
-
-[to title](#title)
-
-
-## Sorting
----
-
-
-Complexity of all sorting algorithms: 
    | №  | Algorithm                             | Average      | Best         | Worst      | Memory |
    | :- | :---------                            | :-------     |:------:      | :-----:    | :-----:|
    | 1  |  [Selection sort](#selection_sort)    |  O(n^2)      | O(n^2)       | O(n^2)     |   O(1) |
@@ -70,6 +20,15 @@ Complexity of all sorting algorithms:
    | 4  |  [Quick sort](#quick_sort)            |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
    | 5  |  [Insertion sort](#insertion_sort)    |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
 
+
+### Fibonacci:
+
+   1. [Fibonacci](#fibonacci)
+
+
+
+## Sorting
+---
 
 
 ### Selection sort<a name=selection_sort>
