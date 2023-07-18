@@ -62,13 +62,13 @@ complexity O(sqrt n)
 
 
 Complexity of all sorting algorithms: 
-   | Algorithm                             | Average      | Best         | Worst      | Memory |
-   | :---------                            | :-------     |:------:      | :-----:    | :-----:|
-   |  [Selection sort](#selection_sort)    |  O(n^2)      | O(n^2)       | O(n^2)     |   O(1) |
-   |  [Bubble sort](#bubble_sort)          |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
-   |  [Merge sort](#merge_sort)            |  O(n log n)  | O(n log n)   | O(n log n) |   O(n) |
-   |  [Quick sort](#quick_sort)            |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
-   |  [Insertion sort](#insertion_sort)    |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
+   | №  | Algorithm                             | Average      | Best         | Worst      | Memory |
+   | :- | :---------                            | :-------     |:------:      | :-----:    | :-----:|
+   | 1  |  [Selection sort](#selection_sort)    |  O(n^2)      | O(n^2)       | O(n^2)     |   O(1) |
+   | 2  |  [Bubble sort](#bubble_sort)          |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
+   | 3  |  [Merge sort](#merge_sort)            |  O(n log n)  | O(n log n)   | O(n log n) |   O(n) |
+   | 4  |  [Quick sort](#quick_sort)            |  O(n log n)  | O(n log n)   | O(n^2)     |   O(n) |
+   | 5  |  [Insertion sort](#insertion_sort)    |  O(n^2)      | O(n)         | O(n^2)     |   O(1) |
 
 
 
